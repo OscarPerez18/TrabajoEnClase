@@ -83,7 +83,11 @@ public class ControladorRecursos {
 
         StringBuilder resultado = new StringBuilder();
 
-        for (RecursoMultimedia r : gestion.getRecursos()) {
+        for (RecursoMultimedia r : gestion.mostrarRecursos()) {
+        
+    }
+
+    ()) {
 
             resultado.append("Código: ").append(r.getCodigoUnico())
                      .append("\nNombre: ").append(r.getNombre())
