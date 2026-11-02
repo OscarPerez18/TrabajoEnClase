@@ -72,36 +72,42 @@ public class VistaPrincipal extends javax.swing.JFrame {
 
         btn_registrar.setBackground(new java.awt.Color(51, 51, 51));
         btn_registrar.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        btn_registrar.setForeground(new java.awt.Color(255, 255, 255));
         btn_registrar.setText("Registrar");
         btn_registrar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         getContentPane().add(btn_registrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 50, 140, -1));
 
         btn_mostrar.setBackground(new java.awt.Color(51, 51, 51));
         btn_mostrar.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        btn_mostrar.setForeground(new java.awt.Color(255, 255, 255));
         btn_mostrar.setText("Mostrar");
         btn_mostrar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         getContentPane().add(btn_mostrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 90, 140, -1));
 
         btn_buscar.setBackground(new java.awt.Color(51, 51, 51));
         btn_buscar.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        btn_buscar.setForeground(new java.awt.Color(255, 255, 255));
         btn_buscar.setText("Buscar");
         btn_buscar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         getContentPane().add(btn_buscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 130, 140, -1));
 
         btn_modificar.setBackground(new java.awt.Color(51, 51, 51));
         btn_modificar.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        btn_modificar.setForeground(new java.awt.Color(255, 255, 255));
         btn_modificar.setText("Modificar");
         btn_modificar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         getContentPane().add(btn_modificar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 170, 140, -1));
 
         btn_eliminar.setBackground(new java.awt.Color(102, 0, 0));
         btn_eliminar.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        btn_eliminar.setForeground(new java.awt.Color(255, 255, 255));
         btn_eliminar.setText("Eliminar");
         btn_eliminar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         getContentPane().add(btn_eliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 210, 140, -1));
 
         btn_salir.setBackground(new java.awt.Color(102, 0, 0));
         btn_salir.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        btn_salir.setForeground(new java.awt.Color(255, 255, 255));
         btn_salir.setText("Salir");
         btn_salir.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         getContentPane().add(btn_salir, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 250, 140, -1));
