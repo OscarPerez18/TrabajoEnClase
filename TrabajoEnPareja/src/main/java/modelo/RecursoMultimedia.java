@@ -11,29 +11,23 @@ import java.util.ArrayList;
  * @author blood
  */
 public class RecursoMultimedia {
+
+    private ArrayList<RecursoMultimedia> recurso = new ArrayList<>();
     //Atributos 
-private int codigoUnico;
-private String nombre;
-private String tipoRecurso;
-private double duracionSize;
+    private int codigoUnico;
+    private String nombre;
+    private String tipoRecurso;
+    private double duracionSize;
 
 //Constructor con parametros 
-
     public RecursoMultimedia(int codigoUnico, String nombre, String tipoRecurso, double duracionSize) {
         this.codigoUnico = codigoUnico;
         this.nombre = nombre;
         this.tipoRecurso = tipoRecurso;
         this.duracionSize = duracionSize;
     }//fin del constructor 
-    
-<<<<<<< HEAD
-    private ArrayList<RecursoMultimedia> recurso = new ArrayList<>();
-    
-}
-=======
-    
-    //Getters and Setters
 
+    //Getters and Setters
     public int getCodigoUnico() {
         return codigoUnico;
     }//fin getCodigoUnico
@@ -65,19 +59,14 @@ private double duracionSize;
     public void setDuracionSize(double duracionSize) {
         this.duracionSize = duracionSize;
     }//fin setDuracionSize
-    
-    
-    //Método para mostrar información 
-     public String toString(){
-         return "Código: " + codigoUnico 
-                 + "\nNombre: " + nombre 
-                 + "\nTipo de Recurso: " + tipoRecurso 
-                 + "\nDuración/Tamaño: " + duracionSize;
-         
-     }//fin de toString  
-             
-    
 
+    //Método para mostrar información 
+    public String toString() {
+        return "Código: " + codigoUnico
+                + "\nNombre: " + nombre
+                + "\nTipo de Recurso: " + tipoRecurso
+                + "\nDuración/Tamaño: " + duracionSize;
+
+    }//fin de toString  
 
 }// fin de la clase RecursoMultimedia 
->>>>>>> 4fbec7203e684ba79f393ff37f8943a8ec167765
