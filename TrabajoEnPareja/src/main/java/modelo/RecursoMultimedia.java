@@ -4,10 +4,14 @@
  */
 package modelo;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author blood
  */
 public class RecursoMultimedia {
+    
+    private ArrayList<RecursoMultimedia> recurso = new ArrayList<>();
     
 }

@@ -28,18 +28,55 @@ public class VistaPrincipal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        btn_registrar = new javax.swing.JButton();
+        btn_mostrar = new javax.swing.JButton();
+        btn_buscar = new javax.swing.JButton();
+        btn_modificar = new javax.swing.JButton();
+        btn_eliminar = new javax.swing.JButton();
+        btn_salir = new javax.swing.JButton();
+        lbl_background = new javax.swing.JLabel();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        btn_registrar.setBackground(new java.awt.Color(51, 51, 51));
+        btn_registrar.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        btn_registrar.setText("Registrar");
+        btn_registrar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        getContentPane().add(btn_registrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 50, 140, -1));
+
+        btn_mostrar.setBackground(new java.awt.Color(51, 51, 51));
+        btn_mostrar.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        btn_mostrar.setText("Mostrar");
+        btn_mostrar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        getContentPane().add(btn_mostrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 90, 140, -1));
+
+        btn_buscar.setBackground(new java.awt.Color(51, 51, 51));
+        btn_buscar.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        btn_buscar.setText("Buscar");
+        btn_buscar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        getContentPane().add(btn_buscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 130, 140, -1));
+
+        btn_modificar.setBackground(new java.awt.Color(51, 51, 51));
+        btn_modificar.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        btn_modificar.setText("Modificar");
+        btn_modificar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        getContentPane().add(btn_modificar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 170, 140, -1));
+
+        btn_eliminar.setBackground(new java.awt.Color(102, 0, 0));
+        btn_eliminar.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        btn_eliminar.setText("Eliminar");
+        btn_eliminar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        getContentPane().add(btn_eliminar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 210, 140, -1));
+
+        btn_salir.setBackground(new java.awt.Color(102, 0, 0));
+        btn_salir.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        btn_salir.setText("Salir");
+        btn_salir.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        getContentPane().add(btn_salir, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 250, 140, -1));
+
+        lbl_background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/FondoMenuInicio.jpg"))); // NOI18N
+        getContentPane().add(lbl_background, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 620, 350));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -70,5 +107,12 @@ public class VistaPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btn_buscar;
+    private javax.swing.JButton btn_eliminar;
+    private javax.swing.JButton btn_modificar;
+    private javax.swing.JButton btn_mostrar;
+    private javax.swing.JButton btn_registrar;
+    private javax.swing.JButton btn_salir;
+    private javax.swing.JLabel lbl_background;
     // End of variables declaration//GEN-END:variables
 }
