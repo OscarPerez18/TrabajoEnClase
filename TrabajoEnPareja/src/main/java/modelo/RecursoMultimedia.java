@@ -4,7 +4,6 @@
  */
 package modelo;
 
-import java.util.ArrayList;
 
 /**
  *
@@ -12,7 +11,6 @@ import java.util.ArrayList;
  */
 public class RecursoMultimedia {
 
-    private ArrayList<RecursoMultimedia> recurso = new ArrayList<>();
     //Atributos 
     private int codigoUnico;
     private String nombre;
