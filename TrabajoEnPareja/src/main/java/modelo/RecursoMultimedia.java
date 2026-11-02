@@ -5,10 +5,6 @@
 package modelo;
 
 
-/**
- *
- * @author blood
- */
 public class RecursoMultimedia {
 
     //Atributos 
